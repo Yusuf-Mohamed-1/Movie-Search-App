@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Search</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+        <div class="logo">
+          <i class="fa-solid fa-clapperboard"></i>
+          <h3>Movie <span>Search</span></h3>
+        </div>
+        <div class="about">
+          <div class="box active">
+            <i style="font-weight: bold" class="fa-regular fa-house"></i>
+            <p>Home</p>
+          </div>
+          <div class="box">
+            <i class="fa-regular fa-heart"></i>
+            <p>Favorites</p>
+          </div>
+          <div class="box">
+            <i class="fa-solid fa-clock-rotate-left"></i>
+            <p>History</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="content">
+      <div class="container">
+        <div class="box">
+          <h2>Find Your Favorite Movie</h2>
+          <p>Search by movie title and get instant details</p>
+        </div>
+        <div class="search-box">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input
+            type="search"
+            placeholder="Enter movie name..."
+            class="input"
+          />
+          <input type="submit" value="Search" class="submit" />
+        </div>
+      </div>
+    </div>
+    <div class="movies">
+      <div class="container">
+        <div class="box">
+          <img class="image" src="" alt="" />
+          <div class="info">
+            <h2 class="mainTitle"></h2>
+            <div class="rate"></div>
+            <div class="genres"></div>
+            <div class="movie-info"></div>
+            <div class="overview"></div>
+            <div class="more-details"></div>
+            <div class="overlay"></div>
+            <div class="details-box"></div>
+          </div>
+        </div>
+        <div class="error-handling">
+          <i class="fa-solid fa-triangle-exclamation"></i>
+          <h3>Something went wrong</h3>
+          <p>We couldn't load the movie data.</p>
+          <p>Please try again later.</p>
+          <button>
+            <i class="fa-solid fa-arrows-rotate"></i>
+            Try Again
+          </button>
+        </div>
+        <div class="no-rsult">
+          <div class="info">
+            <h3>No results for <span></span></h3>
+            <p>We couldn't find any movies matching your search.</p>
+            <button>Search Again</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
