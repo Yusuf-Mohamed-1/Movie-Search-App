@@ -29,3 +29,6 @@ A movie search application built with HTML, CSS, and JavaScript using the TMDB A
 - CSS
 - JavaScript
 - TMDB API
+
+## Live Demo
+https://yusuf-mohamed-1.github.io/Movie-Search-App/
